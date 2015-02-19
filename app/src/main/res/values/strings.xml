@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Email App</string>
+    <string name="from">From</string>
+    <string name="pwd">Password</string>
+    <string name="to">To</string>
+    <string name="subj">Subject</string>
+    <string name="enter_msg">Enter message here…</string>
+    <string name="att">Image attachments</string>
+    <string name="wait">Please wait</string>
+    <string name="sending_email">Sending email…</string>
+    <string name="email_sent">Email sent!</string>
+    <string name="invalid_cred">Invalid credentials</string>
+    <string name="clear_att">Clear Attachments</string>
+    <string name="new_email">New Email</string>
+    <string name="send_email">Send email</string>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/fromEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/from"
+        android:inputType="textEmailAddress"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/emailPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/pwd"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/holo_red_light"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/toEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/to"
+        android:inputType="textEmailAddress"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/emailSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/subj"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/emailMessage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#bcdfff"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="@string/enter_msg"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:textColorHint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/addressOnMainScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/att"
+        android:textColor="#369eff"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@android:drawable/ic_menu_add"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/img2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@android:drawable/ic_menu_add"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/img3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@android:drawable/ic_menu_add"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
