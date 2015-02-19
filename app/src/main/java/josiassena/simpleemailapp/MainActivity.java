@@ -168,6 +168,9 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * Clears all text fields and attachments
+     */
     private void clearAll() {
         clearEditTV(toEmail);
         clearEditTV(emailSubject);
@@ -181,10 +184,13 @@ public class MainActivity extends ActionBarActivity {
         editText.setText("");
     }
 
+    /**
+     * Clear all email attachments
+     */
     private void clearAttachments() {
-        attachment1.setImageResource(R.drawable.ic_launcher);
-        attachment2.setImageResource(R.drawable.ic_launcher);
-        attachment3.setImageResource(R.drawable.ic_launcher);
+        attachment1.setImageDrawable(null);
+        attachment2.setImageDrawable(null);
+        attachment3.setImageDrawable(null);
         attachment_PathList.clear();
     }
 }
