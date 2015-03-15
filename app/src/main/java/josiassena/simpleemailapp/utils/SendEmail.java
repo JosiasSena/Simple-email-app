@@ -11,7 +11,7 @@ import javax.mail.Transport;
 
 import josiassena.simpleemailapp.R;
 
-public class SendEmail extends AsyncTask<Void, Void, Void> {
+class SendEmail extends AsyncTask<Void, Void, Void> {
     private ProgressDialog pDialog;
     private final Context context;
     private final Message mMessage;

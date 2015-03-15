@@ -3,7 +3,7 @@ package josiassena.simpleemailapp.utils;
 import javax.mail.Authenticator;
 import javax.mail.PasswordAuthentication;
 
-public class EmailAuthenticator extends Authenticator {
+class EmailAuthenticator extends Authenticator {
     private final String emailAddress;
     private final String password;
 
