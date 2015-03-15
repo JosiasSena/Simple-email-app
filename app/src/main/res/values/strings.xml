@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Simple Email App</string>
-    <string name="from">From</string>
+    <string name="from">Your Gmail email address</string>
     <string name="pwd">Password</string>
     <string name="to">To</string>
     <string name="subj">Subject</string>

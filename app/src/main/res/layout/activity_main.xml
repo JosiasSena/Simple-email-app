@@ -24,13 +24,6 @@
         android:inputType="textPassword"
         android:singleLine="true" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@android:color/holo_red_light"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"/>
-
     <EditText
         android:id="@+id/toEmail"
         android:layout_width="match_parent"
@@ -80,20 +73,21 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@android:drawable/ic_menu_add"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
 
         <ImageButton
             android:id="@+id/img2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@android:drawable/ic_menu_add"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
 
         <ImageButton
             android:id="@+id/img3"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@android:drawable/ic_menu_add"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
     </LinearLayout>
+
 </LinearLayout>
